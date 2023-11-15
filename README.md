@@ -23,7 +23,7 @@ This package gives a frosted glassy effect to the widgets, images and simple con
 
 Add the dependency under the dependencies:
 
-```
+```yaml
     dependencies:
         frosted_glass_effect: ^0.0.1
 ```

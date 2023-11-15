@@ -6,8 +6,9 @@ class GlassContainer extends StatelessWidget {
   final Widget widget;
   final double radius;
   final String image;
-  const GlassContainer({super.key, required this.widget, double? radius, double? height, double? width, String? image})
-                         : radius = radius ?? 0, image = image ?? "";
+  final Color backgroundColor;
+  const GlassContainer({super.key, required this.widget, double? radius, double? height, double? width, String? image, Color? backgroundColor})
+                         : radius = radius ?? 0, image = image ?? "", backgroundColor = backgroundColor ?? Colors.transparent;
 
   @override
   Widget build(BuildContext context) {
@@ -34,6 +35,13 @@ class GlassContainer extends StatelessWidget {
               Container(
 
               ),
+
+              Container(
+                // height: MediaQuery.of(context).size.height,
+                // width: MediaQuery.of(context).size.width,
+                color: backgroundColor,
+              ),
+
               //Blur Effect
               BackdropFilter(
                 filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20),
