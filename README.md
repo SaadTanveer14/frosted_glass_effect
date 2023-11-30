@@ -18,9 +18,10 @@ This package gives a frosted glassy effect to the widgets, images and simple con
 - Frosted Glass Effect with Image Background.
 - Any child widget can be used, similar to Container (Use it with no Background Color).
 - Effect with Background Color.
-
 <p align="center">
-        <img src="https://image.ibb.co/doViid/screen1.png" alt="drawing" width="230px" hspace="30"/>  <img src="https://image.ibb.co/bszyGy/screen2.png" alt="drawing" width="230px"/> 
+        <img src= "https://github.com/SaadTanveer14/frosted_glass_effect/assets/99664282/d1a19894-6057-4c12-83df-e3aa0e860d7c" alt="drawing" width="230px" hspace="30"/>
+        <img src= "https://github.com/SaadTanveer14/frosted_glass_effect/assets/99664282/cb13f29a-14b8-4d1b-8b09-998a3a0e9ee8" alt="drawing" width="230px" hspace="30"/>
+        <img src= "https://github.com/SaadTanveer14/frosted_glass_effect/assets/99664282/d3315b5d-426c-4345-bbbe-f3a84a73c0e9" alt="drawing" width="230px" hspace="30"/>
 </p>
 ## Getting started
 
