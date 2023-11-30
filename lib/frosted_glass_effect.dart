@@ -5,10 +5,10 @@ import 'package:flutter/material.dart';
 class GlassContainer extends StatelessWidget {
   final Widget widget;
   final double radius;
-  final String image;
+  final String backgroundImage;
   final Color backgroundColor;
-  const GlassContainer({super.key, required this.widget, double? radius, double? height, double? width, String? image, Color? backgroundColor})
-                         : radius = radius ?? 0, image = image ?? "", backgroundColor = backgroundColor ?? Colors.transparent;
+  const GlassContainer({super.key, required this.widget, double? radius, double? height, double? width, String? backgroundImage, Color? backgroundColor})
+                         : radius = radius ?? 0, backgroundImage = backgroundImage ?? "", backgroundColor = backgroundColor ?? Colors.transparent;
 
   @override
   Widget build(BuildContext context) {
@@ -25,11 +25,11 @@ class GlassContainer extends StatelessWidget {
           borderRadius: BorderRadius.circular(radius),
           child: Stack(
             children: [
-              image!=""?
+              backgroundImage!=""?
               Container(
                 // height: MediaQuery.of(context).size.height,
                 // width: MediaQuery.of(context).size.width,
-                child: Image.asset(this.image, fit: BoxFit.cover,),
+                child: Image.asset(backgroundImage, fit: BoxFit.cover,),
               )
               :
               Container(

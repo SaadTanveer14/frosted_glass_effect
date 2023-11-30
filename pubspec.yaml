@@ -1,7 +1,7 @@
 name: frosted_glass_effect
 description: A new Flutter package project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/SaadTanveer14/frosted_glass_effect
 
 environment:
   sdk: '>=3.1.4 <4.0.0'
