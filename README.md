@@ -23,9 +23,10 @@ This package gives a frosted glassy effect to the widgets, images and simple con
         <img src= "https://github.com/SaadTanveer14/frosted_glass_effect/assets/99664282/cb13f29a-14b8-4d1b-8b09-998a3a0e9ee8" alt="drawing" width="230px" hspace="30"/>
         <img src= "https://github.com/SaadTanveer14/frosted_glass_effect/assets/99664282/d3315b5d-426c-4345-bbbe-f3a84a73c0e9" alt="drawing" width="230px" hspace="30"/>
 </p>
+
 ## Getting started
 
-Add the dependency under the dependencies:
+Add the dependency under the dependencies in pubspec.yaml file:
 
 ```yaml
     dependencies:
