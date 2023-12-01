@@ -1,6 +1,6 @@
 name: frosted_glass_effect
 description: This package gives a frosted glassy effect to the widgets, images and simple containers.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/SaadTanveer14/frosted_glass_effect
 
 environment:
